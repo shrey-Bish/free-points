@@ -6,6 +6,8 @@ does the math, tells you which ones can lift your letter grade, and reminds you 
 
 Cubbie Hackathon, Track 1 (Cubbie Skills). Built by **Enrollment Goblins**.
 
+▶ **[Watch the 1-minute video](https://www.tiktok.com/@user214186520884/video/7700649751108160799)** (TikTok)
+
 ## Install
 
 Text this link to Cubbie and reply "yes":
