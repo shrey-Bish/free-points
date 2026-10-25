@@ -1,0 +1,160 @@
+{
+  "_note": "Sample data for trying the Skill. The courses, numbers and quotes are made up.",
+  "today": "2026-10-25",
+  "term": "Fall 2026",
+  "courses": [
+    {
+      "course": "PSY 101",
+      "current_percent": 89.2,
+      "letter_cutoffs": {
+        "A+": 97,
+        "A": 93,
+        "A-": 90,
+        "B+": 87,
+        "B": 83
+      },
+      "policies": [
+        {
+          "type": "extra_credit",
+          "title": "research participation",
+          "worth_percent": 3,
+          "earned_percent": 1,
+          "deadline": "2026-12-04",
+          "claim": "Sign up for studies on the research participation site",
+          "source": "Syllabus, Extra credit",
+          "quote": "Earn up to 3% extra credit by taking part in research studies."
+        },
+        {
+          "type": "extra_credit",
+          "title": "Chapter 9 reflection",
+          "worth_percent": 0.5,
+          "deadline": "2026-10-29",
+          "claim": "Submit the optional reflection on Canvas",
+          "source": "Announcement, Oct 20",
+          "quote": "Optional reflection, worth half a percent of your final grade."
+        },
+        {
+          "type": "attendance",
+          "title": "attendance",
+          "worth_percent": 5,
+          "sessions_total": 30,
+          "sessions_remaining": 12,
+          "source": "Syllabus, Grading",
+          "quote": "Attendance is 5% of the final grade."
+        }
+      ]
+    },
+    {
+      "course": "MAT 265",
+      "current_percent": 78.9,
+      "letter_cutoffs": {
+        "A": 90,
+        "B+": 87,
+        "B": 83,
+        "B-": 80,
+        "C+": 77
+      },
+      "course_total_points": 1000,
+      "policies": [
+        {
+          "type": "drop_lowest",
+          "title": "quiz drops",
+          "category": "quizzes",
+          "category_weight_percent": 20,
+          "count_total": 10,
+          "count_dropped": 2,
+          "missed_or_zero": 1,
+          "remaining": 4,
+          "source": "Syllabus, Quizzes",
+          "quote": "Your two lowest quiz scores are dropped.",
+          "item_name": "quiz"
+        },
+        {
+          "type": "extra_credit",
+          "title": "bonus homework set",
+          "worth_points": 10,
+          "deadline": "2026-10-30",
+          "claim": "Finish the bonus set in the homework system",
+          "source": "Announcement, Oct 22",
+          "quote": "Bonus set worth 10 points, due Friday."
+        },
+        {
+          "type": "replace_score",
+          "title": "final replaces a midterm",
+          "replaced_item": "Midterm 1",
+          "replaced_percent": 20,
+          "replaced_score": 62,
+          "by_item": "the final exam",
+          "deadline": "2026-12-10",
+          "source": "Syllabus, Exams",
+          "quote": "If your final exam score is higher, it replaces your lowest midterm."
+        },
+        {
+          "type": "regrade_window",
+          "title": "regrades",
+          "window_days": 7,
+          "items": [
+            {
+              "name": "Quiz 7",
+              "released": "2026-10-20"
+            }
+          ],
+          "claim": "Request it on Gradescope",
+          "source": "Syllabus, Regrades",
+          "quote": "Regrade requests are accepted for one week after grades are released."
+        }
+      ]
+    },
+    {
+      "course": "CSE 340",
+      "current_percent": 86.4,
+      "letter_cutoffs": {
+        "A": 93,
+        "A-": 90,
+        "B+": 87,
+        "B": 83
+      },
+      "policies": [
+        {
+          "type": "late_days",
+          "title": "late days",
+          "total": 3,
+          "used": 1,
+          "penalty_percent": 10,
+          "typical_assignment_percent": 8,
+          "applies_to": "project",
+          "deadline": "2026-12-04",
+          "claim": "Submit up to 24 hours late per late day; it's applied automatically",
+          "source": "Syllabus, Late work",
+          "quote": "You have 3 late days for the semester."
+        },
+        {
+          "type": "extra_credit",
+          "title": "course evaluation bonus",
+          "worth_percent": 1,
+          "condition": "if 80% of the class fills out the course evaluation",
+          "deadline": "2026-12-04",
+          "source": "Syllabus, Extra credit",
+          "quote": "Everyone gets 1% if at least 80% of the class completes the evaluation."
+        }
+      ]
+    },
+    {
+      "course": "CHM 113",
+      "current_percent": 91.0,
+      "letter_cutoffs": {
+        "A": 93,
+        "A-": 90
+      },
+      "policies": [
+        {
+          "type": "other",
+          "title": "bonus opportunities",
+          "source": "Syllabus, Grading",
+          "quote": "Bonus opportunities may be announced during the semester.",
+          "unclear": "Are any bonus opportunities planned this term, and when will they be announced?"
+        }
+      ]
+    }
+  ]
+}
